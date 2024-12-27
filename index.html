@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <!-- <script type="module" src="src/index.js" defer></script> -->
+  </head>
+  <body>
+    <main class="main">
+      <div class="cards">
+        <div class="cards__wrapper">
+          <div class="cards__heading">
+            <h1 class="cards__title">Антивыгорательный адвент-календарь для волонтера</h1>
+            <h2 class="cards__subtitle">Кликни и переверни карточку!</h2>
+          </div>
+          <div class="cards-table" id="cardsTable">
+            <div class="cards-table__flip-card" data-id="1">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-3-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">полежать 15 минут просто так</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="2">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/illustrations/illustration(2)-min.png"
+                    alt="Парень танцует в наушниках"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    включить громко любимую музыку и попрыгать под нее
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="3">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-2-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    10 минут смотреть в окно и разглядывать, что там показывают
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-table__flip-card" data-id="4">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-4-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    лечь на пол и смотреть в потолок минут 5
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="5">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-1-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    пальцами помассировать уши и пространство за ушами 2 минуты
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="6">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-7-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    пойти умыться прохладной водой и сделать три глубоких вдоха
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="7">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/illustrations/illustration(3)-min.png"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    5 минут смотреть на огонь (например, зажечь свечку)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="8">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-5-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    включить гирлянду и 5 минут смотреть, как она мигает
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="9">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-8-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    выйти и посидеть на лавочке в середине дня
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="10">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-6-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    10 минут лежать в тишине и слушать звуки в доме
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="11">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-10-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">сделать себе массаж пальцев ног</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="12">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-9-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    15 минут не отвечать ни на какие сообщения
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="13">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/illustrations/illustration(5)-min.png"
+                    alt="Девушка гладит кошку, а рядом милая собачек"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">5 минут гладить котиков (собачек)</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="14">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-3-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">болтать ногами 5 минут</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="15">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-1-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    потупить 15 минут в ленту соцсетей с красивыми картинками
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="16">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-4-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">разгадать сканворд или кроссворд</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="17">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-2-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">покататься на качелях</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="18">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-5-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">выровнять магниты на холодильнике</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="19">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-11-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">Вы выйграли сертификат!</p>
+                  <form id="bonusForm" class="bonus-form">
+                    <label for="bonusFormInput" class="bonus-form__label"
+                      >Введите свою почту:</label
+                    >
+                    <input
+                      type="email"
+                      name="email"
+                      id="bonusFormInput"
+                      class="bonus-form__input"
+                      autocomplete="email"
+                      placeholder="example@mail.com"
+                      required
+                    />
+                    <p id="errorMessage" class="bonus-form__error-massage">Не валидная почта</p>
+                    <button type="submit" class="bonus-form__submit">Отправить</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="20">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-1-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">посмотреть небольшой стендап</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="21">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-8-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">просто посидеть ничего не делая 5 минут</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="22">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-10-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">посмотреть старый любимый фильм</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="23">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-5-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    лежать, уткнувшись в мягенькое, 10 минут
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="24">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-9-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    10 минут просто стоять под душем (можно петь)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="25">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/illustrations/illustration(1)-min.png"
+                    alt="Девушка кушает гамбургер"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">съесть что-то вкусное</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="26">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-2-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    5 минут рисовать геометрические узоры на бумажке
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="27">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-4-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">выйти во двор и посмотреть на небо</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="28">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-10-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    отменить что-то запланированное и просто побыть с собой
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="29">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-6-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">отложить одно из дел на другой день</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="30">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-3-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">
+                    купить незапланированно что-то из вишлиста
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="31">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/illustrations/illustration(4)-min.png"
+                    alt="Парень спит"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">поспать или подремать в обед</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-table__flip-card" data-id="32">
+              <div class="cards-table__flip-card-inner">
+                <div class="cards-table__flip-card-front">
+                  <img
+                    src="images/pic-8-min.jpg"
+                    alt="Иллюстрация зимнего сезона из окна"
+                    class="cards-table__flip-card-illustration"
+                  />
+                </div>
+                <div class="cards-table__flip-card-back">
+                  <p class="cards-table__flip-card-text">покрутиться на стуле</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      const container = document.getElementById('cardsTable');
+      container.addEventListener('click', (e) => {
+        if (e.target.classList.contains('cards-table__flip-card-illustration')) {
+          const cardEl = e.target.closest('.cards-table__flip-card');
+          cardEl.classList.add('flipped');
+        }
+      });
+
+      const bonusForm = document.getElementById('bonusForm');
+      const errorMessage = document.getElementById('errorMessage');
+      const EMAIL_REGEXP =
+        /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
+
+      bonusForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const email = new FormData(e.target).get('email');
+        if (EMAIL_REGEXP.test(email)) {
+          try {
+          } catch (err) {}
+        }
+
+        errorMessage.classList.add('active');
+      });
+
+      bonusForm.addEventListener('input', (e) => {
+        errorMessage.classList.remove('active');
+      });
+    </script>
+  </body>
+</html>
