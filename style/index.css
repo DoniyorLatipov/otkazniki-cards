@@ -130,7 +130,7 @@ html {
 }
 
 .cards-table__flip-card-back {
-  background: url('/images/back-side-background-min.jpg');
+  background: url('/otkazniki-cards/images/back-side-background-min.jpg');
   background-size: cover;
   color: white;
   padding: 25px;
@@ -158,7 +158,7 @@ html {
   width: 100%;
   height: 100%;
   border: 50px solid rgba(0, 0, 0, 0);
-  border-image: url('/images/back-side-border-min.png') 33% repeat;
+  border-image: url('/otkazniki-cards/images/back-side-border-min.png') 33% repeat;
   border-radius: 100px;
   z-index: -1;
 }
